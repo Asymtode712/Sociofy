@@ -127,8 +127,8 @@ export const users = [
   {
     _id: userIds[7],
     firstName: "Jessica",
-    lastName: "Dunn",
-    email: "jessicadunn@gmail.com",
+    lastName: "Jones",
+    email: "jessicajones@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
     picturePath: "p9.jpeg",
     friends: [],
@@ -263,7 +263,7 @@ export const posts = [
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[7],
     firstName: "Jessica",
-    lastName: "Dunn",
+    lastName: "Jones",
     location: "Washington, DC",
     description:
       "For the last time, I'm going to play video games now. I'm tired of typing. I'm going to play video games now.",
