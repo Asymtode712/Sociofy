@@ -248,7 +248,7 @@ const Form = () => {
                         m: "2rem 0",
                         p: "1rem",
                         backgroundColor: palette.primary.main,
-                        color: palette.primary.alt,
+                        color: palette.primary.light,
                         "&:hover":{ color: palette.primary.main },
                       }}
                     >
